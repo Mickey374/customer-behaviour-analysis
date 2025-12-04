@@ -1,0 +1,77 @@
+# Virtual environments (common names)
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.env/  
+.env
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data, datasets and large artifacts
+data/
+datasets/
+raw_data/
+processed_data/
+outputs/
+tmp/
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+*.sqlite
+*.db
+*.db-journal
+*.zip
+*.tar.gz
+
+# Models / training artifacts
+models/
+checkpoints/
+weights/
+*.pkl
+*.joblib
+*.pt
+*.pth
+
+# Logs / reports
+*.log
+logs/
+reports/
+results/
+
+# Secrets / env files
+.env
+credentials.json
+secrets.*
+*.key
+
+# Caches / tooling
+.mypy_cache/
+.pytest_cache/
+.cache/
+.pip-wheel-metadata/
+htmlcov/
+dist/
+build/
+
+# IDE/editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
